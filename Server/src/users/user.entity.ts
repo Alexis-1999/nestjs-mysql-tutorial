@@ -3,7 +3,7 @@ import { Entity, Column, PrimaryGeneratedColumn } from "typeorm"
 @Entity({ name: 'users'})
 export class User {
 
-    @PrimaryGeneratedColumn()//Crea el id solo
+    @PrimaryGeneratedColumn()//Crea el id solo automaticamente
     id: number
 
     @Column()//Esto es para que se tranforme en una tabla
